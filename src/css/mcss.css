@@ -146,7 +146,7 @@ p {
     position: absolute;
     top: 43%;
     left: 55%;
-    width: 30rem;
+    width: 30vw;
     height: 10vh;
     font-size: 25px;
     word-spacing: 10px;
@@ -201,4 +201,20 @@ h3::after {
     white-space: pre;
     font-size: 30px;
     color: WHITE;
+}
+
+@media only screen and (max-width: 1310px) {
+    .cont {
+        width: 60vw;
+    }
+    .line hr {
+        width: 23rem;
+        border: 1px solid hsl(240, 1%, 19%);
+    }
+    .line1 hr {
+        top: 74%;
+    }
+    span {
+        font-size: 50px;
+    }
 }

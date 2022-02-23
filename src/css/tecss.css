@@ -81,6 +81,7 @@ h1::before {
     left: 8%;
     height: 10vh;
     width: 10vw;
+    color: black;
 }
 
 button {
@@ -145,4 +146,17 @@ p {
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width:1285px) {
+    .line hr {
+        width: 23rem;
+    }
+    .cont {
+        width: 60vw;
+    }
+    p {
+        top: 50%;
+        font-size: 23px;
+    }
 }
